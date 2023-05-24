@@ -1,0 +1,41 @@
+.header {
+  padding-top: 44px;
+  padding-bottom: 31px;
+  display: flex;
+
+  &__menu {
+    flex: 2;
+    display: flex;
+    > div {
+      flex: 1;
+      a {
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 21px;
+        color: #161616;
+        text-decoration: none;
+        transition: 0.3s;
+        opacity: 1;
+      }
+      a:hover {
+        opacity: 0.6;
+      }
+    }
+  }
+  &__logo {
+    flex: 1;
+  }
+  &__icons {
+    flex: 1;
+    display: flex;
+    > div {
+      padding-right: 30px;
+    }
+    > div:last-child {
+      padding-right: 0;
+    }
+    justify-content: right;
+  }
+}

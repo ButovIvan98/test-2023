@@ -1,0 +1,53 @@
+.home {
+  margin-bottom: 100px;
+  &__header {
+    display: flex;
+    img {
+      height: 100%;
+    }
+    &__text {
+      background: #154444;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      padding-left: 100px;
+      padding-right: 50px;
+      &__extra-large-text {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 68px;
+        margin-bottom: 20px;
+      }
+      color: #ffffff;
+    }
+  }
+  &__payment-services {
+    margin-top: 140px;
+    &__block-title {
+      display: flex;
+      justify-content: center;
+      font-family: 'DM Sans';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 42px;
+
+      color: #244d4d;
+    }
+    &__block-payments {
+      margin-top: 40px;
+      display: flex;
+
+      > div {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        img {
+          width: 80px;
+        }
+      }
+    }
+  }
+}

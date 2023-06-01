@@ -51,3 +51,52 @@
     }
   }
 }
+
+@media (max-width: 992px) {
+  .home {
+    &__header {
+      flex-direction: column;
+      &__img {
+        position: relative;
+        top: -1px;
+        order: 2;
+        background: #154444;
+        img {
+          padding: 60px;
+          width: calc(100% - 120px);
+          padding-bottom: 0;
+          padding-top: 0;
+        }
+      }
+      &__text {
+        order: 1;
+        padding: 24px;
+        padding-top: 49px;
+        padding-bottom: 40px;
+        &__extra-large-text {
+          font-size: 32px;
+          line-height: 42px;
+          margin-bottom: 12px;
+        }
+        > div:last-child {
+          max-width: 250px;
+        }
+      }
+    }
+    &__payment-services {
+      margin-top: 60px;
+      &__block-title {
+        font-size: 18px;
+        line-height: 23px;
+      }
+      &__block-payments {
+        margin-top: 26px;
+        > div {
+          img {
+            width: 50px;
+          }
+        }
+      }
+    }
+  }
+}

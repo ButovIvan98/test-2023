@@ -1,4 +1,5 @@
-import './App.css'
+import React from 'react'
+import './App.scss'
 import './styles/text.scss'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import ContactPage from './pages/contact'
@@ -14,7 +15,7 @@ function App() {
           <Route path={'/'} element={<HomePage />} />
           <Route path={'/contact'} element={<ContactPage />} />
         </Routes>
-        <footer>123</footer>
+        {/* <footer>123</footer> */}
       </BrowserRouter>
     </div>
   )

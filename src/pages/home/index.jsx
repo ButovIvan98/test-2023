@@ -3,11 +3,10 @@ import './style.scss'
 
 const HomePage = () => {
   const payments = ['mastercard', 'airbnb', 'uber', 'paypal', 'mastercard']
-
   return (
     <div className={'home'}>
       <div className={'home__header'}>
-        <div>
+        <div className={'home__header__img'}>
           <img src={'/assets/images/base.png'} />
         </div>
         <div className={'home__header__text'}>
